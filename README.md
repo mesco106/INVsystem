@@ -1,4 +1,4 @@
-INVenezuela is a Python-based automation tool that generates professional Excel invoices from a predefined template.
+INVsystem is a Python-based automation tool that generates professional Excel invoices from a predefined template.
 It preserves all formatting, images, logos, and formulas by using Excel COM automation (pywin32) and applies business rules commonly required for invoicing in Venezuela.
 
 The system reads product data from a CSV file, fills a clean invoice template, and applies:
@@ -101,4 +101,5 @@ pywin32>=306
 Install with:
 
 pip install -r requirements.txt
+
 
